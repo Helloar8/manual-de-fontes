@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  header {
+    background-color: #132696;
+    padding: 2rem 1rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+
+  header h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #eee;
+  }
+
+  .logo-container {
+    margin: 2rem auto;
+    max-width: 300px;
+    text-align: center;
+  }
+
+  .logo-container img {
+    max-width: 50%;
+    height: auto;
+  }
+
+  main {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: auto;
+  }
+
+  section {
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .font-sample {
+    margin-top: 1rem;
+    border-left: 4px solid #007BFF;
+    padding-left: 1rem;
+  }
+
+  .font-bold {
+    font-weight: 700;
+  }
+
+  .font-light {
+    font-weight: 300;
+  }
+
+  footer {
+    background-color: #eee;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+  }
+
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 1.5rem;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+    }
+  }
