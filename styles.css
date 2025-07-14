@@ -12,27 +12,41 @@
   }
 
   header {
-    background-color: #132696;
-    padding: 2rem 1rem;
-    text-align: center;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    background-color: #d1d1d1;
+    padding: 1rem 2rem; /* Ajuste o espaçamento interno */
+    display: flex; /* Ativa o flexbox */
+    align-items: center; /* Alinha os itens verticalmente */
+    justify-content: space-between; /* Espaça os itens horizontalmente */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    position: relative;
+  }
+
+  .logo {
+    max-width: 150px; /* Ajuste o tamanho da logo */
+    position: absolute; /* Permite posicionamento absoluto */
+    top: 10px;
+    margin-bottom: 20px; /* Espaçamento extra abaixo da logo */
+    left: 10px; /* Distância da esquerda */
+    height: auto; /* Mantém a proporção da imagem */
   }
 
   header h1 {
     font-weight: 700;
-    font-size: 2rem;
-    color: #eee;
+    font-size: 1.5rem;
+    color: #000000;
+    margin-left: 1rem; /* Espaçamento entre a logo e o título */
   }
 
   .logo-container {
-    margin: 2rem auto;
-    max-width: 300px;
-    text-align: center;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 300px; /* Ajuste a altura conforme necessário */
   }
 
   .logo-container img {
-    max-width: 50%;
-    height: auto;
+    max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
   }
 
   main {
